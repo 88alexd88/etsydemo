@@ -30,6 +30,10 @@ gem 'bootstrap-sass', '~> 3.2.0'
 
 # added Paperclip
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+# added Paperclip for images
+gem "paperclip-dropbox", ">= 1.1.7"
+# to protect info
+gem "figaro"
 
 
 group :production do
